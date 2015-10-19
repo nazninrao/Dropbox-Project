@@ -1,32 +1,32 @@
 //
-//  UserViewController.swift
+//  settingsViewController2.swift
 //  tst
 //
-//  Created by Naznin Richhariya on 10/13/15.
+//  Created by Naznin Richhariya on 10/18/15.
 //  Copyright © 2015 wm. All rights reserved.
 //
 
 import UIKit
 
-class UserViewController: UIViewController {
+class settingsViewController2: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
     
+    
+    @IBOutlet weak var settingsImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        performSegueWithIdentifier("SignInSegue", sender: self)
-        
+
         // Do any additional setup after loading the view.
+        
+        scrollView.contentSize = settingsImage.image!.size
     }
 
-
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
 
     /*
@@ -39,5 +39,4 @@ class UserViewController: UIViewController {
     }
     */
 
-    
 }

@@ -15,6 +15,11 @@
 		99018DB01BCDA334003A68C3 /* tstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018DAF1BCDA334003A68C3 /* tstTests.swift */; };
 		99018DBB1BCDA334003A68C3 /* tstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018DBA1BCDA334003A68C3 /* tstUITests.swift */; };
 		99018E041BCDF831003A68C3 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99018E031BCDF831003A68C3 /* UserViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		994A920D1BD45A0100538D64 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A920C1BD45A0100538D64 /* settingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		994A920F1BD45C0E00538D64 /* newaccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A920E1BD45C0E00538D64 /* newaccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		994A92111BD45F0700538D64 /* settingsViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A92101BD45F0700538D64 /* settingsViewController2.swift */; settings = {ASSET_TAGS = (); }; };
+		994A92131BD4776700538D64 /* createViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A92121BD4776700538D64 /* createViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		994A92151BD47A0300538D64 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A92141BD47A0300538D64 /* signinViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		99018DBA1BCDA334003A68C3 /* tstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tstUITests.swift; sourceTree = "<group>"; };
 		99018DBC1BCDA334003A68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99018E031BCDF831003A68C3 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		994A920C1BD45A0100538D64 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		994A920E1BD45C0E00538D64 /* newaccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newaccountViewController.swift; sourceTree = "<group>"; };
+		994A92101BD45F0700538D64 /* settingsViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController2.swift; sourceTree = "<group>"; };
+		994A92121BD4776700538D64 /* createViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createViewController.swift; sourceTree = "<group>"; };
+		994A92141BD47A0300538D64 /* signinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,11 @@
 			isa = PBXGroup;
 			children = (
 				99018E031BCDF831003A68C3 /* UserViewController.swift */,
+				994A92121BD4776700538D64 /* createViewController.swift */,
+				994A920E1BD45C0E00538D64 /* newaccountViewController.swift */,
+				994A920C1BD45A0100538D64 /* settingsViewController.swift */,
+				994A92101BD45F0700538D64 /* settingsViewController2.swift */,
+				994A92141BD47A0300538D64 /* signinViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -270,8 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				99018D9D1BCDA334003A68C3 /* ViewController.swift in Sources */,
+				994A92131BD4776700538D64 /* createViewController.swift in Sources */,
 				99018E041BCDF831003A68C3 /* UserViewController.swift in Sources */,
 				99018D9B1BCDA334003A68C3 /* AppDelegate.swift in Sources */,
+				994A92151BD47A0300538D64 /* signinViewController.swift in Sources */,
+				994A920D1BD45A0100538D64 /* settingsViewController.swift in Sources */,
+				994A92111BD45F0700538D64 /* settingsViewController2.swift in Sources */,
+				994A920F1BD45C0E00538D64 /* newaccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
